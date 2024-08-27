@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="Vector.svg" alt="Vector Image" class="vector">
+    <div class="container">
+        <!-- Área de entrada -->
+        <div class="box">
+            <h2>Codificador e Decodificador</h2>
+            <h5>! Apenas letras minúsculas e sem acento.</h5>
+            <textarea id="entradaTexto" rows="5" placeholder="Digite seu texto aqui..."></textarea>
+            <div class="button-group">
+                <button onclick="codificar()">Codificar</button>
+                <button onclick="decodificar()">Decodificar</button>
+            </div>
+        </div>
+        
+        <!-- Área de saída -->
+        <div class="box">
+            <img src="High quality products 1 1.svg" alt="High quality products" class="highQualityProducts">
+            <h2>Resultado</h2>
+            <div id="resultado">
+                <h2>Nenhuma mensagem encontrada<h/2>
+                <h6> Digite o texto que você deseja criptografar ou descriptografar
+            </div>
+            <button onclick="copiarTexto()">Copiar</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
