@@ -1,5 +1,3 @@
-# decodificadorCodificadorAlura
-decodificador e decodificador de texto sem acento e sem carateres especiais
 # Codificador e Decodificador
 
 Este é um projeto simples de codificador e decodificador de texto, desenvolvido em HTML, CSS e JavaScript. O objetivo do projeto é permitir que os usuários codifiquem e decodifiquem mensagens de texto, utilizando uma interface web amigável.
